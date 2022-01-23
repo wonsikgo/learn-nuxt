@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>넉스트 싲가하기</p>
+    <p>넉스트 시작하기</p>
   </div>
 </template>
 
