@@ -1,9 +1,12 @@
 <template>
   <div>
-    <p>넉스트 싲가하기</p>
+    <h1>{{ $route.name }}</h1>
+    <Nuxt />
   </div>
 </template>
 
 <script>
 export default {}
 </script>
+
+<style></style>
