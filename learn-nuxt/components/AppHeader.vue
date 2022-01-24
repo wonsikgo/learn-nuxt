@@ -1,18 +1,14 @@
 <template>
-  <div>
-    <AppHeader />
-    <Nuxt />
-  </div>
+  <header class="title">
+    <nuxt-link class="logo" to="/">Nuxt Shopping</nuxt-link>
+  </header>
 </template>
 
 <script>
-import AppHeader from '../components/AppHeader.vue'
-export default {
-  components: { AppHeader },}
+export default {}
 </script>
 
 <style scoped>
-/* header 관련 스타일 */
 header {
   height: 60px;
   display: flex;
