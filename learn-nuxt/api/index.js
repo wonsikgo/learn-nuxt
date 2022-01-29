@@ -20,4 +20,8 @@ function createCartItem(cartItem) {
   return instance.post('/carts', cartItem);
 }
 
-export { fetchProductById, fetchProductByKeyword, createCartItem }
+function fetchCartItems() {
+  return instance.get(`/carts`)
+}
+
+export { fetchProductById, fetchProductByKeyword, createCartItem, fetchCartItems }
