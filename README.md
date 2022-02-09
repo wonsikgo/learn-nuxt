@@ -1,2 +1,3 @@
 # learn-nuxt
-인프런 - Nuxt.js 시작하기
+
+Nuxt를 공부하기위한 저장소
